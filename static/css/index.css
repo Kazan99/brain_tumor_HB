@@ -1,0 +1,89 @@
+.container_index {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)),
+    url("https://www.curianmedical.co.uk/wp-content/uploads/2021/10/medical-bg-scaled.jpg");
+
+}
+
+
+.con_index {
+    margin-top: 10px;
+    margin-left: 50px;  
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.container_1{
+    background: linear-gradient( rgba(41, 209, 255, 0.65),
+                                rgba(0, 0, 0, 0.5));
+    border: 2px solid #070707;
+    border-radius: 30px; 
+    width: 50%;
+}
+
+.radio_box {
+    margin-left: 10px;
+    margin-left: 15px;
+}
+.container_2{
+    background: linear-gradient( rgba(76, 253, 99, 0.65),
+                                rgba(0, 0, 0, 0.5));
+    border: 2px solid #070707;
+    border-radius: 30px; 
+    width: 50%;
+    margin: 5px;
+}
+
+/* .animat_btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:  #289bb8;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+
+.animat_btn:hover {
+    background:  #289bb8;
+    color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px  #289bb8,
+                0 0 25px  #289bb8,
+                0 0 50px  #289bb8,
+                0 0 100px  #289bb8;
+}
+
+.animat_btn span{
+    position: absolute;
+    display: block;
+}
+
+.animat_btn span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #289bb8);
+    animation: btn-animal 1s linear infinite;
+}
+
+@keyframes btn-animal {
+    0% {
+        left: -100%;
+    }
+    50%, 100% {
+        left: 100%;
+    }
+} */

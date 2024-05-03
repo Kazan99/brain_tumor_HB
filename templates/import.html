@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEDICAL CENTER HB - Медицинский центр HB</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/HB.ico') }}">
+    
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <link href="{{ url_for('static', filename='css/test.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/newjs.js') }}" type="text/javascript"></script>
+
+    <link href="{{ url_for('static', filename='css/header.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/home.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/footer.css') }}" rel="stylesheet">
+
+    
+</head>
+
+<body>
+
+        <!--Header-->
+        <div class="header_all">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark header_info">
+                        <div class="header_center">
+                            <div class="header_left">
+                                <a class="navbar-brand header_module--top" href="/">
+                                    <img src="{{ url_for('static', filename='img/HB.png') }}" alt="HB" class="img_head">
+                                    MEDICAL CENTER HB
+                                </a>
+                            </div>
+                            <div class="header_right">
+                                <a class="navbar-brand header_text" href="/new" >Диагностики опухолей головного мозга</a>
+                            </div>
+                        </div>
+                    </nav>
+
+            </div>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+
+        <!--Footer-->
+        <div class="footer_all">
+            <footer class="footer_wrapper">
+                <div class="container">
+                    <div class="footer_wrapper_info">
+                        <div class="index_module">
+                            <div class="index_module--top">
+                                <a href="/">
+                                    <img src="{{ url_for('static', filename='img/HB.png') }}" alt="HB" class="footer_img">
+    
+                                </a>
+                                <p class="footer_logo_text">MEDICAL CENTER HB</p>
+                            </div>
+                            <ul class="footer_list">
+                                <li>
+                                    Номер телефона:
+                                    <a href="tel:+79631214030">+79631214030</a>
+                                </li>
+                                <li>
+                                    Почта:
+                                    <a href="mailto:vn.tomhoang.99@gmail.com">vn.tomhoang.99@gmail.com</a>
+                                </li>
+                                <li>
+                                    Адрес: 420015, Российская Федерация, Республика Татарстан, Казань, ул.Карла Маркса, 68,
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_web_bottom">
+                            <a href="https://vk.com/kazan9x" class="footer_social-item" title="HB над Vk">
+                                <img src="{{ url_for('static', filename='img/vk-brands.svg') }}" alt="svg" class="footer_web_icon footer_facebook">
+                            </a>
+                            <a href="https://telegram.org/" class="footer_social-item" title="HB над telegram">
+                                <img src="{{ url_for('static', filename='img/telegram-brands.svg') }}" alt="svg" class="footer_web_icon footer_telegram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <footer class="footer_wrapper_web">
+                <div class="container">
+                    <div class="footer_weapper_info ml-3">
+                        <p class="footer_copyright">© 2024 MEDICAL CENTER HB г. Казань.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>
+
+
+
+
